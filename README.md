@@ -1,0 +1,2 @@
+# alphaclass.ai
+AlphaClass Investments
