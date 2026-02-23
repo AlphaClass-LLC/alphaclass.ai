@@ -450,8 +450,16 @@
       footer { flex-direction: column; gap: 1.5rem; text-align: center; }
     }
 
-    @media (max-width: 560px) {
-      .pillars { grid-template-columns: 1fr; }
+    @media (max-width: 700px) {
+      .stat { display: none; }
+    }
+
+    @media (max-width: 650px) {
+      .nav-cta { display: none; }
+    }
+
+    @media (max-width: 490px) {
+      .nav-how{ display: none; }
     }
   </style>
 </head>
@@ -463,9 +471,9 @@
       <img src="./images/alphaclass-logo.png" alt="AlphaClass" />
     </div>-->
     <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#platform">Platform</a></li>
-      <li><a href="#how">How It Works</a></li>
+      <li><a href="#about" class="nav-about">About</a></li>
+      <li><a href="#platform" class="nav-platform">Platform</a></li>
+      <li><a href="#how" class="nav-how">How It Works</a></li>
       <!--<li><a href="#powered">Powered By</a></li>-->
       <li><a href="#cta" class="nav-cta">Get Started</a></li>
     </ul>
